@@ -26,7 +26,7 @@ export default class App extends Component {
                   <Route exact path="/maktab-hayoti">
                     <NavbarHeader1/>
                     <SchoolLive/>
-                   {/* <Footer/> */}
+                   <Footer/>
                   </Route>
           </Switch>
       </div>
