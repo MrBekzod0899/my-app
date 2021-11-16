@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import { BrowserRouter,Route } from 'react-router-dom';
+import 'aos'
+import "aos/dist/aos.css";
+import '@mui/material'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <BrowserRouter>
+       <App/>
+  </BrowserRouter>,
   document.getElementById('root')
 );
 
