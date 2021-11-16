@@ -1,0 +1,57 @@
+.contact{
+    width: 60px;
+    background-color: #f1f1f1;
+    position: fixed;
+    right: 0;
+    top: 250px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 6px 0;
+    box-sizing: border-box;
+    z-index: 10;
+}
+.contact .btn-group-vertical span {
+    border-bottom: 1px solid rgb(37, 35, 35);
+}
+.contact .btn-group-vertical span a svg{
+    font-size: 34px;
+    padding: 4px;
+    box-sizing: border-box;
+    color: blue;
+}
+
+.contact .btn-group-vertical span:hover a svg{
+    color: red;
+}
+.contact .btn-group-vertical span:hover a svg{
+    position: relative;
+}
+.contact .btn-group-vertical span a::before{
+    content:"+998337341399";
+    /* display: none; */
+    position: absolute;
+    left: -214px;
+    bottom: 0;
+    width: 200px;
+    height: 17%;
+    color: white;
+    padding-top:2px ;
+    background-color: #1b1a1a;
+    transform: translateX(270px);
+    transition: transform 0.5s linear;
+    
+}
+.contact .btn-group-vertical span:nth-child(2) a:before{
+    content: 'https://t.me/fullstackdeveloper99';
+    top: 35px;
+    transform: translateX(310px);
+    left: -263px;
+    width: 250px;
+    z-index: 2;
+}
+.contact .btn-group-vertical span:nth-child(2):hover a:before{
+    transform: translateX(0);
+}
+.contact .btn-group-vertical span:last-child:hover a::before{
+    transform: translateX(0);
+}
