@@ -9,12 +9,13 @@ import SchoolLive from './Components/MaktabHayoti/SchoolLive'
 import Contact from './Components/Contact/Contact'
 import Darsliklar from './Components/Darsliklar/Darsliklar'
 
+
 export default class App extends Component {
 
   render() {
     return (
       <div>
-           <Switch>
+        <Switch>
                   <Route exact path="/">
                         <NavbarHeader1/>
                         <Content/>
@@ -25,7 +26,7 @@ export default class App extends Component {
                   <Route exact path="/maktab-hayoti">
                     <NavbarHeader1/>
                     <SchoolLive/>
-                    <Footer/>
+                   {/* <Footer/> */}
                   </Route>
           </Switch>
       </div>

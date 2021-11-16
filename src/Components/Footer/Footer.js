@@ -19,7 +19,7 @@ export default function Footer() {
                     </Col>
                     <Col className="col-lg-4 col-md-4 col-sm-12 col-12" data-aos="fade-up">
                              <div className="top">
-                                <h1>Bizning Maktabimiz</h1>
+                                <h1>Bizning Maktab</h1>
                             </div>
                             <p><Link to="/">Bosh Sahifa</Link></p>
                             <p><Link to="/maktab-hayoti">Maktab hayoti</Link></p>
@@ -30,7 +30,7 @@ export default function Footer() {
                         <div className="top">
                             <h1>Maktab Hayoti</h1> 
                         </div>
-                            <p ><Link to="/yangiliklar">News</Link></p>
+                            <p ><Link to="/yangiliklar">Yangiliklar</Link></p>
                             <p ><Link to="/mamuriyat"  >Maktab-ma'muriyati</Link></p>
                             <p ><Link to="/alochilar">Maktab a'lochilari</Link></p>
                     </Col>
